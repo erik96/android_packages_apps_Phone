@@ -1284,13 +1284,13 @@ public class CallNotifier extends Handler
             final int callLogType;
             boolean rejectAsMissed = PhoneUtils.PhoneSettings.rejectedAsMissed(mApplication);
             if (c.isIncoming()) {
-                if (!rejectAsMissed) {
-                        callLogType = (cause == Connection.DisconnectCause.INCOMING_MISSED ?
-                                Calls.MISSED_TYPE : Calls.INCOMING_TYPE);
+                if (cause == Connection.DisconnectCause.INCOMING_MISSED) {
+                    callLogType = Calls.MISSED_TYPE;
+                } else if (cause == Connection.DisconnectCause.INCOMING_REJECTED
+                        && PhoneUtils.PhoneSettings.markRejectedCallsAsMissed(mApplication)) {
+                    callLogType = Calls.MISSED_TYPE;
                 } else {
-                callLogType = ( (cause == Connection.DisconnectCause.INCOMING_MISSED) ||
-                                (cause == Connection.DisconnectCause.INCOMING_REJECTED) ?
-                                Calls.MISSED_TYPE : Calls.INCOMING_TYPE);
+                    callLogType = Calls.INCOMING_TYPE;
                 }
             } else {
                 callLogType = Calls.OUTGOING_TYPE;
