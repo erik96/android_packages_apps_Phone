@@ -1635,6 +1635,8 @@
     <string name="add_to_blacklist_message">Future calls from %s will be blocked</string>
     <string name="remove_blacklist_number_title">Remove number</string>
     <string name="remove_blacklist_number">Do you want to remove %s from the blacklist?</string>
+    <string name="blacklist_private_numbers_title">Private numbers</string>
+    <string name="blacklist_private_numbers_summary">Block incoming calls from private numbers</string>
 
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">Blocked a call from %s</string>
@@ -1643,5 +1645,14 @@
 
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Blacklist</string>
+
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Voice quality</string>
+    <string name="voice_quality_summary">Using profile: <xliff:g id="value">%s</xliff:g></string>
+    <!-- Do not remove those, they're used from overlays. -->
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Clear</string>
+    <string name="voice_quality_entry_crisp">Crisp</string>
+    <string name="voice_quality_entry_bright">Bright</string>
 
 </resources>

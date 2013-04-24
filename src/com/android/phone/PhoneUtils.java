@@ -393,6 +393,7 @@ public class PhoneUtils {
     }
 
     static class PhoneSettings {
+        /* vibration preferences */
         static boolean vibOn45Secs(Context context) {
             return getPrefs(context).getBoolean("button_vibrate_45", false);
         }
@@ -405,6 +406,8 @@ public class PhoneUtils {
         static boolean vibCallWaiting(Context context) {
             return getPrefs(context).getBoolean("button_vibrate_call_waiting", false);
         }
+
+        /* misc. UI and behaviour preferences */
         static boolean showInCallEvents(Context context) {
             return getPrefs(context).getBoolean("button_show_ssn_key", false);
         }
@@ -418,6 +421,7 @@ public class PhoneUtils {
         static boolean rejectedAsMissed(Context context) {
             return getPrefs(context).getBoolean("button_rejected_as_missed", false);
         }
+        /* blacklist handling */
         static boolean isBlacklistEnabled(Context context) {
             return getPrefs(context).getBoolean("button_enable_blacklist", false);
         }

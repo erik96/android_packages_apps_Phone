@@ -1693,6 +1693,10 @@ public class CallFeaturesSetting extends PreferenceActivity
             mButtonVoiceQuality = null;
         }
 
+        if (mButtonVoiceQuality != null) {
+            mButtonVoiceQuality.setOnPreferenceChangeListener(this);
+        }
+
         // create intent to bring up contact list
         mContactListIntent = new Intent(Intent.ACTION_GET_CONTENT);
         mContactListIntent.setType(android.provider.Contacts.Phones.CONTENT_ITEM_TYPE);
