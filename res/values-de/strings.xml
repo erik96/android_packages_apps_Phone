@@ -635,4 +635,23 @@
     <string name="dtmf_tone_enable_title" msgid="827601042915852989">"Wähltastentöne"</string>
     <string name="dial_pad_autocomplete" msgid="494525952035761075">"Autom. Vervollständigung für Wähltasten"</string>
     <string name="preference_category_ringtone" msgid="5197960752529332721">"Klingelton &amp; Vibration"</string>
+
+
+
+    <!-- +++ -->
+    <string name="calllog_after_call">Anrufhistorie</string>
+    <string name="calllog_after_call_summary">Ziege die Anrufhistorie nach einem Anruf</string>
+
+
+    <!-- Incoming call in background -->
+    <string name="bg_incall">Eingehender Anruf bleibt im Hintergrund</string>
+    <string name="bg_incall_summary">Bei eingehenden Anrufen wird nur eine Benachrichtigung gezeigt und der Klingelton abgespielt, wenn das Display an ist</string>
+
+    <string name="rejected_as_missed">Abgelehnte Anrufe entsprechen verpaßten</string>
+    <string name="rejected_as_missed_sum">Abgelehnte Anrufe werden als verpaßte Anrufe angzeigt</string>
+
+
+    <!-- Transparent in call widget -->
+    <string name="transparent_in_call_widget">Durchsichtiger Anrufbildschirm</string>
+    <string name="transparent_in_call_widget_summary">Zeigt das komplette Profilbild des Kontakts bei eingehenden Anrufen</string>
 </resources>
