@@ -701,4 +701,36 @@
     <string name="phone_number_label">Meine Telefonnummer</string>
     <string name="phone_number_summary">Die Telefonnummer dieses Geräts festlegen</string>
 
+    <!-- +++ -->
+    <string name="calllog_after_call">Anrufhistorie</string>
+    <string name="calllog_after_call_summary">Ziege die Anrufhistorie nach einem Anruf</string>
+
+
+    <!-- Incoming call in background -->
+    <string name="bg_incall">Eingehender Anruf bleibt im Hintergrund</string>
+    <string name="bg_incall_summary">Bei eingehenden Anrufen wird nur eine Benachrichtigung gezeigt und der Klingelton abgespielt, wenn das Display an ist</string>
+
+    <string name="rejected_as_missed">Abgelehnte Anrufe entsprechen verpaßten</string>
+    <string name="rejected_as_missed_sum">Abgelehnte Anrufe entsprechen verpassten
+Abgelehnte Anrufe werden als verpasste Anrufe angzeigt</string>
+
+
+    <!-- Transparent in call widget -->
+    <string name="transparent_in_call_widget">Durchsichtiger Anrufbildschirm</string>
+    <string name="transparent_in_call_widget_summary">Zeigt das komplette Profilbild des Kontakts bei eingehenden Anrufen</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Negativliste</string>
+    <string name="enable_blacklist_title">Aktiviere die Negativliste</string>
+    <string name="blacklist_notify">Zeige Benachrichtigungen</string>
+    <string name="blacklist_summary">Eingehende Anrufe von Nummern, die auf der Liste stehen, werden geblockt</string>
+
+
+    <string name="blacklist_private_numbers_title">Anonyme Nummern</string>
+    <string name="blacklist_private_numbers_summary">Lehne Anrufe mit anonymer Nummer ab</string>
+    <string name="blacklist_unknown_numbers_title">Unknown numbers</string>
+    <string name="blacklist_unknown_numbers_summary">Block incoming calls from numbers not in the contact list</string>
+    <string name="blacklist_regex_title">Benutze Jokerzeichen</string>
+    <string name="blacklist_regex_summary">Benutze . als Jokerzeichen und * für weitere. Z. B. 123.* blockiert Nummern, die mit 123 beginnen und .*123.*  blockiert Nummern, die 123 beinhalten</string>
+    <string name="add_blacklist_number">Füge Telefonnummer hinzu</string>
 </resources>
